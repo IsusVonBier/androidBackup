@@ -61,10 +61,6 @@ for i in "${arr[@]}"; do
 	str+="${sd_dir}/${items[$i]} "
 done
 
-#
-# echo $cmd1
-# $cmd1
-
 case $utility in
 1)
 	cmd1="adb pull -a -z brotli $str $outputFolder"
